@@ -7,7 +7,7 @@ set /A repeatmeevery=20
 
 if %time:~0,2% LSS 10 set mycurrentTime=%time:~1,1%_%time:~3,2%
 
-if %time:~0,2% GTR 9 set mycurrentTime= set mycurrentTime=%time:~0,2%_%time:~3,2%
+if %time:~0,2% GTR 9  set mycurrentTime=%time:~0,2%_%time:~3,2%
 
 
 
